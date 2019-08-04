@@ -7,3 +7,5 @@ un entorno SPA.
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 -He aprendido que puedo asociar elementos del modelo a ciertas propiedades para que cambien de manera reactiva.
+-He aprendido a utilizar las directivas condicionantes para que partes de la página cambien en tiempo real según
+diversos factores. 
