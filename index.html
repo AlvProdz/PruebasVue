@@ -4,7 +4,13 @@
 	<title>Ejercicio SPA</title>
 </head>
 <body>
-	<div id="Mostrar"><h1> {{ mensaje }}</h1></div>
+	<div id="Mostrar">
+		<h1> {{ mensaje }}</h1>
+	</div>
+	<div id="Campo">
+		<input type="text" v-model="nombreCambiante">
+		<p>{{ nombreCambiante }}</p>
+	</div>
 	<script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
 	<script src="JS/main.js" type="text/javascript"></script>
 </body>
